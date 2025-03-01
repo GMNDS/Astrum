@@ -1,0 +1,28 @@
+{
+  "name": "Astrum",
+  "dockerFile": "Dockerfile",  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "biomejs.biome",
+        "bradlc.vscode-tailwindcss",
+        "editorconfig.editorconfig",
+        "fill-labs.dependi",
+        "github.codespaces",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.github-vscode-theme",
+        "pkief.material-icon-theme",
+        "stivo.tailwind-fold",
+        "usernamehw.errorlens",
+        "oven.bun-vscode",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "files.associations": {
+          "*.css": "tailwindcss"
+        }
+      }
+    }
+  }
+}
